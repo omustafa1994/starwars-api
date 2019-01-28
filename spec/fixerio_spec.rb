@@ -3,7 +3,6 @@ require 'spec_helper'
 describe 'starwars api' do 
 
   before(:all) do 
-    # @api_key = ENV['FIXER_API_KEY']
     @starwars_people = ParseJson.new(HTTParty::get("https://swapi.co/api/people/1").body).json_data
     @starwars_planet = ParseJson.new(HTTParty::get("https://swapi.co/api/planets/1").body).json_data
   end
