@@ -1,2 +1,1 @@
-# starwars-api
-# starwars-api
+# Testing of Star Wars API 
